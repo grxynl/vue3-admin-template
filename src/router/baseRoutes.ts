@@ -123,7 +123,7 @@ export const baseRoutes: RouteRecordRaw[] = [
         },
         children:[
             {
-                path:'http://www.aihanrui.cn/',
+                path:'http://www.baidu.com/',
                 component:()=>{},
                 meta:{
                     title:'test',
