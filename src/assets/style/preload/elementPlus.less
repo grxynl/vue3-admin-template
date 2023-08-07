@@ -1,0 +1,30 @@
+/** 侧边栏 */
+.el-menu {
+  width: 100%;
+  height: calc(100% - @header-height);
+  border: 0!important;
+  white-space: nowrap;
+  --el-menu-text-color:@theme-aside-font-color;
+  --el-menu-hover-bg-color:@theme-aside-active-bg-color;
+  --el-menu-bg-color:@theme-aside-bg-color;
+  --el-menu-active-color:@theme-aside-active-font-color;
+}
+.el-popper{
+border: 0;
+}
+
+.el-card{
+  color:@theme-font-color!important;
+  border:1px solid @theme-line-color!important;
+  background-color:@theme-color!important;
+ .el-card__header{
+    border-bottom: 1px solid @theme-line-color!important;
+  }
+  .el-card__body{
+    padding: 0;
+  }
+}
+
+.el-table__inner-wrapper{
+  background-color: @theme-color!important;
+}

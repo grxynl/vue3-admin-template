@@ -1,0 +1,46 @@
+:root {
+    --header-height:50px;
+    --tag-height:34px;
+    --aside-max-width:220px;
+    --aside-min-width:64px;
+}
+/* 27374D 526D82 9DB2BF DDE6ED*/
+html.dark {
+    --theme-bg-color: #121212;
+    --theme-color: #272727;
+    --theme-font-color: #e2e2e2;
+    --theme-active-color: #9DB2BF;
+    --theme-line-color:#555555;
+
+    /* label */
+    --theme-label-active-color: #555555;
+    --theme-label-active-font-color:#e2e2e2;
+
+    /*    侧边栏*/
+    --theme-aside-bg-color:#1f1f1f;
+    --theme-aside-active-bg-color: #063e71;
+    --theme-aside-font-color:#cccccc;
+    --theme-aside-active-font-color:#ffffff;
+
+    filter:saturate(0.5);
+}
+
+/* 001C30 176B87 64CCC5 DAFFFB */
+html.light {
+    --theme-color: #fafafa;
+    --theme-bg-color: #e0e0e0;
+    --theme-font-color: #262626;
+    --theme-active-color: #9DB2BF;
+    --theme-line-color:#e2e2e2;
+
+    /* label */
+    --theme-label-active-color: #409eff;
+    --theme-label-active-font-color:#fff;
+
+
+/*    侧边栏*/
+    --theme-aside-bg-color:#001527;
+    --theme-aside-active-bg-color: #063e71;
+    --theme-aside-font-color:#cccccc;
+    --theme-aside-active-font-color:#ffffff;
+}
