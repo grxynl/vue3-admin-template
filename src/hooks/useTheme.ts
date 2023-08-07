@@ -16,7 +16,7 @@ const themeList: Theme[] = [{
     themeName: 'dark'
 }]
 
-const currentTheme = ref<Theme>(themeList[NORMAL_THEME_INDEX])
+const currentTheme = ref<Theme>()
 
 
 /** 更改body样式 */
@@ -34,9 +34,11 @@ const setTheme = (theme:Theme)=>{
 /** 设置缓存中的主题 */
 const initTheme = ()=>{
     const cacheTheme = cache.getItem(SELECT_THEME_KEY)
-    if(cacheTheme){
-        setTheme(cacheTheme)
-    }
+  if (cacheTheme) {
+    setTheme(cacheTheme)
+  } else { 
+    setTheme(themeList[NORMAL_THEME_INDEX])
+  }
 }
 
 export  function useTheme() {
