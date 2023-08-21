@@ -82,7 +82,7 @@ npm run build
 
 ## 项目文档
 
-[查看临时文档](https://mp.csdn.net/mp_blog/creation/editor/132180337)
+[查看临时文档](https://blog.csdn.net/grx1125/article/details/132180337)
 
 ## 项目贡献
 
